@@ -1,7 +1,7 @@
-require 'rspec'
 require 'timecop'
-require_relative './lww_set'
-require_relative './element'
+require 'rack/test'
+require_relative '../lww_set'
+require_relative '../element'
 
 describe LwwSet do
   describe '#initialize' do
